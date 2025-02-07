@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07882999-a692-49c0-a28b-fa2b7b15ef6a" name="Default Changelist" comment="se agrega contenido al modelo, se crea metodo createAccount en la interface gateway, se implementa en el adapter y se abstrae en usecase" />
+    <list default="true" id="cd7d87d2-6b10-41d5-a5de-9895b5fbd06d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/applications/app-service/ms-account.app-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/applications/app-service/ms-account.app-service.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/applications/app-service/ms-account.app-service.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/domain/model/ms-account.model.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/domain/model/ms-account.model.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/domain/model/ms-account.model.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/domain/usecase/ms-account.usecase.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/domain/usecase/ms-account.usecase.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/domain/usecase/ms-account.usecase.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/ms-account.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/ms-account.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/ms-account.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,78 +41,29 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ms-account" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="feature/adding-domain" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2fylkknTCLAydx1NFAUkxq2Fwl9" />
+  <component name="ProjectId" id="2sgnV5l0faYPXaTd382X41J0sMN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="gradle build" />
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.MainApplication">
-    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="co.com.bancolombia.MainApplication" />
-      <module name="ms-account.app-service.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.com.bancolombia.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -103,109 +75,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ms-api-account [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ms-account.app-service.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.com.bancolombia.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="co.com.bancolombia.MainApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.MainApplication" />
-        <item itemvalue="Gradle.ms-api-account [build]" />
-        <item itemvalue="Spring Boot.MainApplication" />
-        <item itemvalue="Application.MainApplication" />
-        <item itemvalue="Gradle.ms-api-account [build]" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="07882999-a692-49c0-a28b-fa2b7b15ef6a" name="Default Changelist" comment="" />
-      <created>1714781345192</created>
+      <changelist id="cd7d87d2-6b10-41d5-a5de-9895b5fbd06d" name="Default Changelist" comment="" />
+      <created>1738886115545</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1714781345192</updated>
-      <workItem from="1714781349085" duration="1427000" />
-      <workItem from="1715013677631" duration="1481000" />
-      <workItem from="1715015382299" duration="14733000" />
-      <workItem from="1717011582683" duration="6647000" />
-      <workItem from="1717609806225" duration="5010000" />
-      <workItem from="1717708597156" duration="596000" />
-      <workItem from="1738880441193" duration="1948000" />
+      <updated>1738886115545</updated>
+      <workItem from="1738886125144" duration="384000" />
     </task>
-    <task id="LOCAL-00001" summary="first commit">
-      <created>1715015160849</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1715015160849</updated>
-    </task>
-    <task id="LOCAL-00002" summary="se agregan clases modelo">
-      <created>1715017886229</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1715017886229</updated>
-    </task>
-    <task id="LOCAL-00003" summary="se agrega clase casoDeUso">
-      <created>1715018215163</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1715018215163</updated>
-    </task>
-    <task id="LOCAL-00004" summary="se agrega Driven adapter Generic">
-      <created>1715018884889</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1715018884889</updated>
-    </task>
-    <task id="LOCAL-00005" summary="se agrega EntryPoint restmvc">
-      <created>1715026438696</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1715026438696</updated>
-    </task>
-    <task id="LOCAL-00006" summary="se agrega contenido al modelo, se crea metodo createAccount en la interface gateway, se implementa en el adapter y se abstrae en usecase">
-      <created>1715039172015</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1715039172015</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,19 +101,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
-    <MESSAGE value="se agregan clases modelo" />
-    <MESSAGE value="se agrega clase casoDeUso" />
-    <MESSAGE value="se agrega Driven adapter Generic" />
-    <MESSAGE value="se agrega EntryPoint restmvc" />
-    <MESSAGE value="se agrega contenido al modelo, se crea metodo createAccount en la interface gateway, se implementa en el adapter y se abstrae en usecase" />
-    <option name="LAST_COMMIT_MESSAGE" value="se agrega contenido al modelo, se crea metodo createAccount en la interface gateway, se implementa en el adapter y se abstrae en usecase" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
